@@ -13,4 +13,3 @@ end
 if int % 5 == 0 && i % 3 == 0
   then puts "FizzBuzz"
 end
-end
