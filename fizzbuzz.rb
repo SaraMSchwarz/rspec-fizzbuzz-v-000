@@ -1,17 +1,9 @@
 def fizzbuzz(int)
-
-
-
 if int % 3 == 0
-  then puts  "Fizz"
-end
-
-if int % 5 == 0
-  then puts "Buzz"
-end
-
-if int % 5 == 0 && i % 3 == 0
-  then puts "FizzBuzz"
+  puts  "Fizz"
+elsif int % 5 == 0
+  puts "Buzz"
+elsif int % 5 == 0 && i % 3 == 0
+  puts "FizzBuzz"
 end
 end
-fizzbuzz(3)
